@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="Sign up.html">Sign Up</a></li>
+        <li><a href="Sign In.html">Sign In</a></li>
+    </ul>
+
+    <h2>Things I like To Do</h2>
+    <div>
+        <!--image slider start-->
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <a href="badminton2.html"><img
+                            src="https://cdn.shopify.com/s/files/1/0020/9407/1890/files/2_480x480.jpg?v=1559302854"
+                            alt="">
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="Anime2.html"><img src="https://m.media-amazon.com/images/I/916sz9+X69L._RI_.jpg"
+                            alt=""></a>
+                </div>
+                <div class="slide">
+                    <a href="videogame.html"><img
+                            src="https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1641233427"
+                            alt=""></a>
+                </div>
+                <div class="slide">
+                    <a href="coding.html"><img
+                            src="https://www.zdnet.com/a/img/resize/b79c8b8c58535149564634c22deb63f7541326a3/2022/03/18/99fe6dad-4a6e-4c91-bc90-b441889fca9f/zd-basics-of-coding.jpg?width=1200&height=900&fit=crop&auto=webp"
+                            alt=""></a>
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+        <!--image slider end-->
+
+        <div class="picture">
+            <a href="https://steamcommunity.com/profiles/76561199052451062/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiYp_TkdPvd2YbNf9D6oB6aOgA-TDiTvtuc65vDN3YRmPCimhjaxlvgSh3wufE7QXmmw&usqp=CAU"></a>
+
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if (counter > 4) {
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
+            <br><br><br><br><br>
+            <br><br><br><br><br>
+
+            <!-- Site footer -->
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <h6>About</h6>
+                            <p class="text-justify">If you want to see more trash websites like this one dont forget
+                                to
+                                follow me on
+                                youtube, instagram and check our my steam profile because why not. Thank you Mr.Rai this
+                                was a fun assigment I had a lot of fun so Thank you am excited for new semester. </p>
+                        </div>
+
+
+
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons">
+                                <a class="instagram" href="https://www.instagram.com/davids4lar/"><img
+                                        src="https://wallpapers-clan.com/wp-content/uploads/2022/01/cute-doodle-instagram-icon-aesthetic.png"></a>
+                                <a class="youtube" href="https://www.youtube.com/channel/UCN1_pbTBaVVOzTw2ZFMs32w"><img
+                                        src="https://i.pinimg.com/originals/7f/96/0b/7f960ba8d2d6e119fad980d0f5880139.jpg"></a>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+</body>
+
+</html>
